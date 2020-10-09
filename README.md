@@ -2,16 +2,12 @@
 
 Ansible role to install/configure Netdata
 
+Forked from: https://github.com/mrlesmithjr/ansible-netdata, however I don't intended to do my own changes as needed. If it seems useful I'll probably contribute it back.
+
 ## Build Status
 
 ### GitHub Actions
-
-![Molecule Test](https://github.com/mrlesmithjr/ansible-netdata/workflows/Molecule%20Test/badge.svg)
-
-### Travis CI
-
-[![Build Status](https://travis-ci.org/mrlesmithjr/ansible-netdata.svg?branch=master)](https://travis-ci.org/mrlesmithjr/ansible-netdata)
-
+![Molecule Test](https://github.com/jprltsnz/ansible-netdata/workflows/Molecule%20Test/badge.svg)
 ## Requirements
 
 For any required Ansible roles, review:

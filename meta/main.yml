@@ -1,6 +1,7 @@
 ---
 galaxy_info:
-  author: Larry Smith Jr.
+  role_name: netdata
+  author: jprltsnz
   description: Ansible role to install/configure Netdata
   license: MIT
 
@@ -20,7 +21,6 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - bionic
-        - dingo
         - focal
         - precise
         - trusty
