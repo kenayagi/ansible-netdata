@@ -2,7 +2,9 @@
 
 Ansible role to install/configure Netdata
 
-Forked from: https://github.com/mrlesmithjr/ansible-netdata, however I don't intended to do my own changes as needed. If it seems useful I'll probably contribute it back.
+Forked from: https://github.com/mrlesmithjr/ansible-netdata, however I do
+intended to do my own changes as needed. If it seems useful I'll probably
+contribute it back.
 
 ## Build Status
 
