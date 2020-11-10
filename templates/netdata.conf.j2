@@ -52,6 +52,9 @@
 	# gzip compression level = 3
 
 [plugins]
+    {% for key in netdata_plugins_configs %}
+    {{ key }}="{{ netdata_plugins_configs[key] }}"
+    {% endfor %}
 	# PATH environment variable = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 	# PYTHONPATH environment variable =
 	# tc = yes
